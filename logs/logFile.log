@@ -1,0 +1,95 @@
+10-03-2022 16:29:18.142 [main] ERROR h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:38:57.967 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStarting - Starting H2consoleJunitTestMockApplication using Java 13.0.2 on JohnTran with PID 16272 (C:\java8\h2console_JunitTest_Mock\build\classes\java\main started by itphu in C:\java8\h2console_JunitTest_Mock)
+10-03-2022 16:38:57.971 [main] DEBUG h.c.h.H2consoleJunitTestMockApplication.logStarting - Running with Spring Boot v2.6.4, Spring v5.3.16
+10-03-2022 16:38:57.972 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStartupProfileInfo - The following 1 profile is active: "production"
+10-03-2022 16:39:00.967 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStarted - Started H2consoleJunitTestMockApplication in 3.343 seconds (JVM running for 4.272)
+10-03-2022 16:39:01.040 [main] ERROR h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:01.040 [main] WARN  h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:01.041 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:01.041 [main] DEBUG h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:01.041 [main] TRACE h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:49.483 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStarting - Starting H2consoleJunitTestMockApplication using Java 13.0.2 on JohnTran with PID 16328 (C:\java8\h2console_JunitTest_Mock\build\classes\java\main started by itphu in C:\java8\h2console_JunitTest_Mock)
+10-03-2022 16:39:49.487 [main] DEBUG h.c.h.H2consoleJunitTestMockApplication.logStarting - Running with Spring Boot v2.6.4, Spring v5.3.16
+10-03-2022 16:39:49.487 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStartupProfileInfo - The following 1 profile is active: "production"
+10-03-2022 16:39:52.271 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.logStarted - Started H2consoleJunitTestMockApplication in 3.095 seconds (JVM running for 3.991)
+10-03-2022 16:39:52.337 [main] ERROR h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:52.337 [main] WARN  h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:52.338 [main] INFO  h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:52.338 [main] DEBUG h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:39:52.338 [main] TRACE h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:40:56.919 [main] ERROR h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+10-03-2022 16:41:23.754 [main] ERROR h.c.h.H2consoleJunitTestMockApplication.lambda$runner$0 - CommandLineRunner.run();
+16:42:32.383 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+16:44:42.862 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+16:44:42.863 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - / by zero
+16:49:02.617 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+16:49:02.620 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+16:49:37.931 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+16:49:37.933 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+16:52:02.365 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+16:52:02.368 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+17:10:41.447 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+17:11:23.748 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+17:11:23.751 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+17:13:02.916 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+17:13:02.920 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+17:13:20.143 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+17:13:20.146 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)
+17:13:50.716 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - CommandLineRunner.run();
+17:13:50.719 [main] ERROR h.c.h.H2consoleJunitTestMockApplicationlambda$runner$0 - Error :
+java.lang.ArithmeticException: / by zero
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.lambda$runner$0(H2consoleJunitTestMockApplication.java:28)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:777)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at h2.console.h2console_junittest_mock.H2consoleJunitTestMockApplication.main(H2consoleJunitTestMockApplication.java:16)

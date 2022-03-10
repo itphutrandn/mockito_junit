@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="DEV_HOME" value="logs"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36}%M - %highlight(%magenta(%msg%n))
+            </Pattern>
+        </layout>
+    </appender>
+
+    <springProfile name="production">
+        <logger name="h2.console.h2console_junittest_mock" level="error" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+        </logger>
+    </springProfile>
+
+
+    <appender name="SAVE-TO-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DEV_HOME}/logFile.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>
+                %d{HH:mm:ss.SSS} [%t] %-5level %logger{36}%M - %msg%n
+            </Pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${DEV_HOME}/%d{yyyy/MM, aux}/logFile.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+            <totalSizeCap>4KB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <springProfile name="production">
+        <logger name="h2.console.h2console_junittest_mock" level="error" additivity="false">
+            <appender-ref ref="SAVE-TO-FILE"/>
+        </logger>
+    </springProfile>
+</configuration>
